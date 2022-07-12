@@ -1,0 +1,84 @@
+{
+  "name": {
+    "en": "ROB_200-016-0"
+  },
+  "class": "remote",
+  "capabilities": [
+    "button",
+    "light_temperature",
+    "dim",
+    "light_hue"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "zigbee": {
+    "manufacturerName": "ROBB smarrt",
+    "productId": ["ROB_200-016-0"],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          18,
+          25,
+          768,
+          4096,
+          2821
+        ],
+        "bindings": []
+      },
+      "2": {
+        "clusters": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          18,
+          25,
+          768,
+          4096,
+          2821
+        ],
+        "bindings": []
+      },
+      "3": {
+        "clusters": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          18,
+          25,
+          768,
+          4096,
+          2821
+        ],
+        "bindings": []
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/images/learnmode.svg",
+      "instruction": { "en": "Put the remote in pairing mode" }
+    }
+  },
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  }
+}
